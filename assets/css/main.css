@@ -3914,6 +3914,19 @@ input, select, textarea {
 
 		}
 
+	/*.hor_aln div{
+		float: left;
+    	clear: none;
+	}*/
+
+	/*.my_img{
+		padding-left: 50px;
+	}*/
+
+	/*#rev_intro{
+		padding-left: 72.2px;
+	}*/
+
 	#two {
 		padding-left: 50px;
 		background-color: rgba(71, 50, 135);
