@@ -3919,6 +3919,14 @@ input, select, textarea {
 		background-color: rgba(71, 50, 135);
 	}
 
+	#prjct {
+		padding-left: 50px;
+	}
+
+	#wrk_exp {
+		padding-left: 50px;
+	}
+
 	#three {
 		padding-left: 50px;
 		background-color: rgba(71, 50, 135);
