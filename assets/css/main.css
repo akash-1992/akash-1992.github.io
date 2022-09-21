@@ -3932,8 +3932,12 @@ input, select, textarea {
 		background-color: rgba(71, 50, 135);
 	}
 
-	#dog{
+	#sonifi{
 		background-color: rgba(88, 99, 189);
+	}
+
+	#derb{
+		background-color: rgba(115,82,194,1.00);
 	}
 
 	#prjct {
@@ -3946,7 +3950,7 @@ input, select, textarea {
 
 	#three {
 		padding-left: 50px;
-		background-color: rgba(71, 50, 135);
+		background-color: rgba(65, 41, 128);
 	}
 
 	#footer{
