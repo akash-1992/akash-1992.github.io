@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Verbose details</title>
+		<title>Verbose</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -113,9 +113,9 @@
 									<div class="row">
 										<div class="col-6 col-12-medium">
 											<ul class="actions">
-												<li><a class="button primary">Test</a></li>
-												<li><a class="button">Analyze</a></li><li><a href="#" class="button primary">Learn</a></li>
-												<li><a class="button">Incorporate</a></li><li><a href="#" class="button primary">Reframe</a></li>
+												<li><a class="button primary">Test</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&#8594;
+												<li><a class="button">Analyze</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&#8594;<li><a href="#" class="button primary">Learn</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&#8594;
+												<li><a class="button">Incorporate</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&#8594;<li><a href="#" class="button primary">Reframe</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&#8594;
 												<li><a class="button">Iterate</a></li>
 											</ul>
 										</div>
@@ -166,8 +166,8 @@
 									<div class="row">
 										<div class="col-6 col-12-medium">
 											<ul class="actions">
-												<li><a class="button primary">User Tests on Sketch-based Wire Frames</a></li>
-												<li><a class="button">Visual Respresentation Tests</a></li><li><a class="button primary">Mobile App Tests</a></li>
+												<li><a class="button primary">User Tests on Sketch-based Wire Frames</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&#8594;
+												<li><a class="button">Visual Respresentation Tests</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&#8594;<li><a class="button primary">Mobile App Tests</a></li>
 											</ul>
 										</div>
 									</div>
@@ -214,7 +214,7 @@
 													<tr>
 														<td>R4</td>
 														<td>Gradual increase in difculty</td>
-														<td>Gradual increase in number of intonations and difculty of a training sentence enable ease of learning (10/10)</td>
+														<td>Gradual increase in number of intonations and difficulty of a training sentence enable ease of learning (10/10)</td>
 													</tr>
 													<tr>
 														<td>R5</td>
@@ -247,18 +247,61 @@
 											<div class="col-12"><span class="image fit"><img src="images/Fig-Prosody.png" alt="" /></span></div>
 										</div>
 									</div>
-									<p style="width:680px">A visual design expert along with 10 students from the visual design class were used to intuitively rate the closeness of the text written on the screen with the audio playback provided on an online link containing the relevant files and the response measurement form. All possible combinations of the options available to highlight text in a text editor like bold, underline, italics, highlight with the options available to show change in pitch modulation like change in text size and graphical representation above the text were presented to the users. 2 combinations among them were rated the most intuitive by the participants. Subjective feedbacks on the form helped us narrow the most intuitive representation as the one where the text color of the tonic units was the same as that of the tonic syllable, alongwith change in text size representing pitch modulation. Further, observations regarding the unintuitiveness of text italics and graph to highlight stress and change in stress, respectively were noted. This audio-visual user study was formalized after a thorough literature survey examining the various ways in which change in pitch has been represented historically while writing musical notes and tone sounds, finding an optimum way to read that does not disrupt the flow of reading and at the same time provides relevant sound related information clearly.</p>
-									<hr/>
+									<p style="width:680px">Although a universal agreement has been reached to represent all possible human speech sounds through International Phonetic Alphabet (IPA) [11], little consensus been has developed for the representation of stress or pitch modulation. The figure represents the various ways in which pitch has been represented textually historically. A) depicts the notation presented by James Rush, B) presents the notation given by Lieberman tracing the 10th harmonic of a spoken sentence, C) depicts notation presented by Crystal, D) presents the notation presented by Bolinger, and E) portrays the notation presented by Ladefoged. 
+									<br>
+									<br>
+									We used the following parameters to design our visual representations to be tested -</p>
+									<div class="table-wrapper">
+											<table>
+												<thead>
+													<tr>
+														<th>Px</th>
+														<th>Parameter</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>P1</td>
+														<td>We used an orthographic system of language representation and nota phonetic representation with the assumption that the users are more aware and responsive to such a representation.</td>
+													</tr>
+													<tr>
+														<td>P2</td>
+														<td>The representation system highlighted the tonic unit as well as the tonic syllable of the required intonation. The tonic unit in a sentence determines the phrase where stress is to be used, while the tonic syllable within that unit determines the exact syllable that is required to be stressed, thereby indicating the type of intonation.</td>
+													</tr>
+													<tr>
+														<td>P3</td>
+														<td>We considered using all the available highlighting options, namely text color, bold, italics, underline and background color which are available within any standard text editor like Google Docs, along with gradient text color, to highlight the pitch target part.</td>
+													</tr>
+													<tr>
+														<td>P4</td>
+														<td>We further considered using either relative change in text size and graphical representation superimposed on the orthographic representation, to show a relative change in pitch among the syllables of a word. This design criterion is assumed to help a user know the exact place of pitch modulation.</td>
+													</tr>
+													
+												</tbody>
+											</table>
+										</div>
+
 									<br>
 									<br>
 
 									<h2>Design Requirements from Visual Representation Study</h2>
+									<p style="width:680px">
+									We developed 12 visual representations (as shown in the figure below) from the combination of the above parameters to represent the stress or emphasis in a sentence for a user to intonate. The 12 visual representations were given in a randomized order to 10 students of visual design along with their respective audio clips. They were then asked to rate the closeness of the audio recordings to each of the representations (on a scale of 1 to 10) and point out the mismatch between the two if any.
+									<br>
+									<br>
+
+
+									</p>
 									<div class="box alt">
 										<div class="row gtr-uniform">
 											<div class="col-12"><span class="image fit"><img src="images/Study1-VisRepTest.png" alt="" /></span></div>
 										</div>
 									</div>
-									<p style="width:680px">A visual design expert along with 10 students from the visual design class were used to intuitively rate the closeness of the text written on the screen with the audio playback provided on an online link containing the relevant files and the response measurement form. All possible combinations of the options available to highlight text in a text editor like bold, underline, italics, highlight with the options available to show change in pitch modulation like change in text size and graphical representation above the text were presented to the users. 2 combinations among them were rated the most intuitive by the participants. Subjective feedbacks on the form helped us narrow the most intuitive representation as the one where the text color of the tonic units was the same as that of the tonic syllable, alongwith change in text size representing pitch modulation. Further, observations regarding the unintuitiveness of text italics and graph to highlight stress and change in stress, respectively were noted. This audio-visual user study was formalized after a thorough literature survey examining the various ways in which change in pitch has been represented historically while writing musical notes and tone sounds, finding an optimum way to read that does not disrupt the flow of reading and at the same time provides relevant sound related information clearly.</p>
+
+									<p style="width:680px">The average rating for both bold/variation in text size and text color (gradient)/variation in text size both came out to be 8.16/10, which meant that they were the most intuitive representations for highlighting the tonic unit and tonic syllable within a sentence. 3 design students found highlighting the tonic syllable with any color (blue in our case as used by us) other than black to be confusing. They felt that blue being a lighter color than black can also imply more stress on the black text part (text that is supposed to have no intonation). Therefore, we only used black as our text color consistently. We validated the above mentioned two changes to our representations obtained from the additional comments provided by the design students by consulting with the design expert.</p>
+									<br>
+									<br>
+									
 
 									<div class="table-wrapper">
 											<table>
@@ -284,18 +327,18 @@
 									<br>
 
 									<h2>App Architecture</h2>
-									<p style="width:680px">The figure below describes the system upon which the final high-fidelity app was built. Voice input from the user was recorded for analysis and sent to the server for content analysis. If a normal threshold accuracy for correctness was achieved, the audio was split into timeframes to get the exact part where the user intonated in a sentence. This was then pitch extracted using Parselmouth and analysed through a self constructed algorithm for checking intonation.</p>
 									<div class="box alt">
 										<div class="row gtr-uniform">
 											<div class="col-12"><span class="image fit"><img src="images/AppArchitecture1.png" alt="" /></span></div>
 										</div>
 									</div>
+									<p style="width:680px">The figure above describes the system upon which the final high-fidelity app was built. The technical implementation of our system contained four phases - voice input phase, pitch extraction phase, intonation analysis phase, and visual feedback phase. Voice input from the user was recorded for analysis and pitch extracted using Parselmouth. It was then sent to the server for content analysis. If a normal threshold accuracy for correctness was achieved, the audio was split into timeframes to get the exact part where the user intonated in a sentence. This was then analysed through a self constructed algorithm for checking intonation. Finally, the feedback was presented to the user through the mobile device.</p>
 
 									<hr/>
 									<br>
 									<br>
 
-									<h2>High-fidelity app structure</h2>
+									<h2>Mobile App Structure</h2>
 									<p>
 									<div class="row gtr-uniform">
 										<div class="col-4"><span class="image fit"><img src="images/screenshots/Screenshot 2019-05-13 at 12.02.40 PM.png" alt="" /></span></div>
@@ -314,57 +357,182 @@
 									<br>
 									<br>
 
-									<h2>High-fidelity testing</h2>
-									<p style="width:680px">A comprehensive evaluation on the final high-fidelity app across three sessions and in between the 4 phases of the app, namele, pre-training test, training, post-training test and analysis phases, was done using methods as shown below.
+									<h2>Final Mobile Application Testing</h2>
+									<br>
 									<div class="box alt">
 										<div class="row gtr-uniform">
 											<div class="col-12"><span class="image fit"><img src="images/study4flow.png" alt="" /></span></div>
 										</div>
 									</div>
+									<p style="width:680px">A comprehensive evaluation on the final high-fidelity app across three sessions and in between the 4 phases of the app, namele, pre-training test, training, post-training test and analysis phases, was done using methods as shown below.
+									
 									<br>
 									<br>
 									<h3>UEQ (User Experience Questionnaire)</h3>
-									<p style="width:680px">A UEQ questionnaire was conducted to find out the user reponses on features of the app involving attractiveness, perspicuity, efficiency, dependability, stimulation and novelty.</p>
 									<br>
 									<div class="box alt">
 										<div class="row gtr-uniform">
 											<div class="col-12"><span class="image fit"><img src="images/UEQ_Session2.png" alt="" /></span></div>
 										</div>
 									</div>
+									<p style="width:680px">A UEQ questionnaire was conducted to find out the user reponses on features of the app involving attractiveness, perspicuity, efficiency, dependability, stimulation and novelty.</p>
+									<br>
 									<br>
 			
 									<h3>SUS (System Usability Scale)</h3>
 									<p style="width:680px">The SUS scores were used to find the app usability. Any score above 80.3 (out of 100) on the SUS scale is among the top 10 percentile and correlates to the adjective rating of good. The overall user-friendliness of our app was rated 82.3 (out of 100) on SUS. The score was much above the required average benchmark score on SUS, which is 68. These results proved the hypothesis of our app in teaching the requisite English speaking skills. Quantitative analysis of learning gain across different intonation and across sessions revealed each result was statistically significant. Further, the percentage incorrect performance of the users was used to find the level of difficulty of each intonation. To further validate our findings and ground them in reason, these numbers were assisted from our qualitative findings of semi structured interviews conducted after session3 of the study.</p>
 									<br>
 
-									<div class="box alt">
-										<div class="row gtr-uniform">
-											<div class="col-12"><span class="image fit"><img src="images/Fig7.png" alt="" /></span></div>
-										</div>
-									</div>
+									<hr/>
+									<br>
+									<br>
 
-									<p style="width:680px">Qualitative observations revealed that all people found the skills taught to be useful in improving speech expressions. We conducted two-open ended semi-structured interviews with each participant. One in between the first session after the training phase to get insights on the feedbacks provided and learning methodology used for teaching. Other, after the end of complete study to get insights on the experience with the study. We inductively coded the themes and then, deductively coded all the interviews again, marking converging themes. People could readily relate to real life examples of efficient speakers who speak with the skills taught through the app. Not only could the participants understand the rationale behind the app, they could feel the change in themselves after the study. All participants pointed out the novelty of such an app in improving the language speaking skills of people with English as second language. Further, users got to know why, where and when to stress in sentences according to different contexts. Along with knowing about each intonation in depth and the reason behind the way they are spoken, participants also got factual knowledge for disambiguation between different intonations through the information on introduction and feedback pages. Most users were able to finish successive exercises in lesser number of tries. Apart from the visual representation and information provided on introduction and feedback screens, this was attributed by users to the audio recordings in the introduction and the practice screens, which got activated in the Bonus tries after n+1 (n being the total number of intonations) attempts, in the training section. Verbose recordings alongside user recordings on the same text towards the end in the Analysis section and the audio cues in the Training section helped most participants in self analysis of their current level of speech intonations. The app also helped participants in distinguishing intensity from pitch through the hints in the analysis section. </p>
+									<h2>Qualitative Observations</h2>
+									<p style="width:680px">Qualitative observations revealed that all people found the skills taught to be useful in improving speech expressions. We conducted two-open ended semi-structured interviews with each participant. We first inductively coded the themes and then, deductively coded all the interviews again, marking converging themes. 
+
+									<h3>Novelty of the system</h3>
+									<section>
 									
-									<hr />
-									<br>
-									<br>
-
-								</section>
-
-								<section>
-									
-									<h2>Quotes</h2>
-									<blockquote style="width:680px">This was something new and very useful. I will certainly use at least sentence and question intonations in my regular speech as they will definitely improve the way I express my intentions.</blockquote>
-									<hr />
-									<br>
-									<br>
+									<blockquote style="width:680px">''I was unaware and didn’t think specifcally about stress (intonations) till now. I always thought more on clarity or time spent on a topic, rather than the stress in the pitch.''</blockquote>
+								
 									</section>
 
-								
-								<section>
-									<p><a href="https://github.com/namanmaheshwari97/Verbose-backend">https://github.com/namanmaheshwari97/Verbose-backend</a></p>
+									<section>
+									
+									<blockquote style="width:680px">''I guess the continuation intonation (in the application) told (informed) me to emphasize each and every word while I was fnishing a thought. I would really like to implement that.''</blockquote>
+									
+									</section>
+
+									<h3>Effectiveness of teaching pedagogy</h3>
+									<section>
+					
+									<blockquote style="width:680px">''I guess it (the mobile application) provides hints towards the modulation of how you speak. If someone is talking really fast, or if someone doesn’t know what he or she is speaking, just by the modulation you can tell if that sentence is a question or a statement.''</blockquote>
+			
+									</section>
+
+									<section>
+					
+									<blockquote style="width:680px">''I found the experience to be a very pleasant one. I never felt at any moment that I was getting bored. In fact, I rather enjoyed conversing with the chat agent, mainly because the way he spoke sounded very nice. I could almost feel like a personalized trainer is taking me through the app and conversing with me, alongside teaching the necessary skills.''</blockquote>
+			
+									</section>
+									 
+									<h3>Gamification</h3>
+
+									<section>
+					
+									<blockquote style="width:680px">''The design of the training exercises was very effective in my opinion. The screens were very interactive, it almost became like a challenge not to enter in the Bonus section and get the intonation right in the given number of tries.''</blockquote>
+			
+									</section>
+
+									<h3>Visual Representation</h3>
+
+									<section>
+					
+									<blockquote style="width:680px">''...(the context) was easy to understand because of the changed characters (in the visual representation)''</blockquote>
+			
+									</section>
+
+									<h3>Conceptual Facts on Intonations</h3>
+
+									<section>
+					
+									<blockquote style="width:680px">''The introductory screen was very important as it introduced me with new conceptual knowledge, which made things relatively easy to understand when I had to perform in the exercises. Also, the feedback screen gave explanations that why depending on a particular question (context) asked by Verbose, the intonation of an answer for specifc words will change.''</blockquote>
+			
+									</section>
+
+									<section>
+					
+									<blockquote style="width:680px">''I also think that presenting a feedback of each exercise was also very helpful in concretizing and remembering these concepts.''</blockquote>
+			
+									</section>
+
+									<h3>Gradual Increase in Difficulty</h3>
+
+									<section>
+					
+									<blockquote style="width:680px">''When the session fnishes, it seems like you have learned a lot. It is a lot of new things, but I think the content has been designed intelligently. I didn’t feel anytime that I have to learn a lot suddenly. It was a gradual process.''</blockquote>
+			
+									</section>
+
+									<h3>Utility of the Mobile Application</h3>
+
+									<section>
+					
+									<blockquote style="width:680px">''You can’t understand the formation of sentences in their (ESL speakers) speech, so you are in general confused (about context) what they are trying to stress on. At those moments you understand that it (context specifc stress words) matters...like some people intonate words like "the" and "it" , and it just makes the sentence confusing to interpret.''</blockquote>
+			
+									</section>
+
+									<section>
+					
+									<blockquote style="width:680px">''It’s important because you want to convey the intention very clearly...my speech has improved. I am not a bland speaker anymore (laughs).''</blockquote>
+			
+									</section>
+
+									<h3>Use Cases</h3>
+
+									<section>
+					
+									<blockquote style="width:680px">''For UPSC (Civil Services examination) aspirants, it is necessary to clear the interview...So these people who are preparing, they use many methods (to improve English) and this defnitely could be one of them''</blockquote>
+			
+									</section>
+
+
+									</p>
+									<hr/>
+									<br>
+									<br>
+
+									<h2>Quantitative Observations</h2>
+									<p><span class="image left"><img src="images/Fig7A.png" alt="" /></span>To fnd if the scores were signifcant, we performed a two-way repeated measures ANOVA test for the two factors of session (levels - 1 and 3) and intonation (levels - accent , sentence, question and continuation). The data followed normal distributions as tested through a Shapiro-Wilk and Kolmogorov-Smirnov test. However, our data violated sphericity for the factors - intonation and (intonation * session), as observed through the Mauchly’s test of sphericity. Hence, we used Greenhouse Geisser corrections for reporting the fnal test values for these 2 factors.
+									<br>
+									<br>
+									<br>
+									<br>
+
+									<p><span class="image right"><img src="images/Fig7B.png" alt="" /></span></p>
+
+
+									<h3>Two-Way Repeated Measures ANOVA</h3>
+									
+									<div class="table-wrapper">
+											<table>
+												<thead>
+													<tr>
+														<th>Factor</th>
+														<th>F value</th>
+														<th>Details</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Session</td>
+														<td>F (1, 15) = 13.182</td>
+														<td>p = 0.003, pes = 0.485</td>
+													</tr>
+													<tr>
+														<td>Intonation</td>
+														<td>F (1.329, 18.606) = 15.750</td>
+														<td>p < 0.001, pes = 0.529, (E = 0.443)</td>
+													</tr>
+													<tr>
+														<td>Intonation * session</td>
+														<td>F (1.418, 19.852) = 3.969</td>
+														<td>p = 0.048, pes = 0.221, (E = 0.473)</td>
+													</tr>
+													
+												</tbody>
+											</table>
+										</div>
+									We observed that the change in performance of user intonations is very highly signifcant. 
+
+									</p>
+									
 									<hr />
+									<br>
+									<br>
+
 								</section>
+
 								<section>
 									<p><a href="https://dl.acm.org/doi/abs/10.1145/3447526.3472057">Published in Mobile HCI 2021.</a></p>
 								</section>
